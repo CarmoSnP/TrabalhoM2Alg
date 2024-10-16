@@ -1,0 +1,10 @@
+--------
+
+questao da prova de corrigir o codigo, prestar atenção em erros de ; faltando ou em lugar errado 
+
+faltando o tipo da chamada de funcao, tipo void papapapa
+na prova pode ta so papapapa ai estaria errado, teria que corrigir e colocar o void ou o tipo desejado (funcao de definir valor que nao vai retornar nada tem que ser void)
+
+ficar de olho na chamada de class, quando chama um atributo privado sem construtor no publico, assim nao pode definir valor para ele 
+
+estudar questoes da lista de publico/privado, chance de cair na prova 
