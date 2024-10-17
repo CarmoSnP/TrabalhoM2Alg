@@ -107,9 +107,5 @@ int main()
 
     std::cout << std::endl;
 
-    ~m_str s1;
-    ~m_str s2;
-    ~m_str s3;
-
     return 0;
 }
