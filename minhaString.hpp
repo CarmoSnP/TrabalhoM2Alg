@@ -20,6 +20,9 @@ public:
     // Obtém o valor da string
     const char *getValor() const;
 
+    // Método para acessar a c-string interna
+    const char *getCStr() const;
+
     // Converte todos os caracteres para maiúsculas
     void upper();
 
@@ -34,4 +37,16 @@ public:
 
     // coverte a strinf para camelcase
     void camelCase(const std::string &frase);
+
+    // converte inteiro em double
+    double verificaEConverteNumero() const;
+
+    // Declaração da função verificaSeLetra
+    bool verificaSeLetra() const;
+
+    // Sobrecarga do operador +
+    m_str operator+(const m_str &other) const;
+
+    // Sobrecarga do operador []
+    char operator[](size_t index) const;
 };
